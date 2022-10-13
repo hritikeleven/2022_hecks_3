@@ -20,6 +20,6 @@ public class TestCase2 {
 		driver.findElement(By.id("Password")).sendKeys("Dom12@");
 		driver.findElement(By.id("ConfirmPassword")).sendKeys("Dom12@");
 		driver.findElement(By.id("register-button")).click();
-		driver.quit();
+		driver.quit(); // it is a good practise to do in your code.
 }
 }
