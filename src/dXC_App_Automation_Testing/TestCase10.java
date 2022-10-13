@@ -19,13 +19,13 @@ public class TestCase10 {
 		driver.findElement(By.id("RememberMe")).click();
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input")).click();
 		
-		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[1]/div[1]/div[2]/ul/li[3]/a")).click();
-		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[1]/div[1]/div/h2/a")).click();
-		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div[2]/div[2]/div[3]/div[3]/div/div[2]/h2/a")).click();
+		driver.findElement(By.xpath("<<PLEASE USE THE XPATH HERE TO GET THE EXACT RESULT>>")).click();
+		driver.findElement(By.xpath("<<PLEASE USE THE XPATH HERE TO GET THE EXACT RESULT>>")).click();
+		driver.findElement(By.xpath("<<PLEASE USE THE XPATH HERE TO GET THE EXACT RESULT>>")).click();
 		
 		driver.findElement(By.id("add-to-cart-button-18")).click();
 
 		driver.findElement(By.xpath("//*[@id=\"topcartlink\"]/a/span[1]")).click();
-		driver.close();
+		driver.close(); // IT is a good practise to close the Driver after utilzing the whole code.
 }
 }
