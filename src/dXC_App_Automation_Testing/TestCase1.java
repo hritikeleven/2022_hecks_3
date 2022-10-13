@@ -24,7 +24,7 @@ public class TestCase1 {
 	      } else {
 	         System.out.println("Logo not present");
 	      }
-	      driver.quit();
+	      driver.quit();// it is a good practise to do in your code.
 		
 }
 }
