@@ -41,7 +41,7 @@ public class TestCase12 {
 		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div/div/div[2]/div/form/div[2]/div[1]/div[2]/div/div[3]/div[4]/input")).click();
 		//driver.findElement(By.xpath("//*[@id=\"termsofservice\"]")).click();
 		driver.findElement(By.id("checkout")).click();
-		driver.close();
+		driver.close(); //IT is a good practise to close the Driver after utilzing the whole code.
 		
 		
 
