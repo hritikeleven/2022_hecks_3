@@ -17,7 +17,7 @@ public class TestCase4 {
 		driver.findElement(By.id("Email")).sendKeys("shybxc@gmail.com");
 		driver.findElement(By.id("Password")).sendKeys("Dom12@");
 		driver.findElement(By.id("RememberMe")).click();
-		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[4]/div[2]/div/div[2]/div[1]/div[2]/div[2]/form/div[5]/input")).click();
-		driver.close();
+		driver.findElement(By.xpath("<<USE THE XPATH HERE TO GET THE EXACT RESUL>>T")).click();
+		driver.close(); // it is a good practise to do in your code.
 }
 }
