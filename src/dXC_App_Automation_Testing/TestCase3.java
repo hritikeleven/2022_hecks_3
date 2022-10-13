@@ -15,7 +15,7 @@ public class TestCase3 {
 		driver.manage().window().maximize();
 		driver.get("http://demowebshop.tricentis.com/");
 		
-		driver.findElement(By.xpath("/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a")).click();
+		driver.findElement(By.xpath("<<use the XPATH here to get the result>>")).click();
 		
 		driver.findElement(By.id("gender-female")).click();
 		driver.findElement(By.id("FirstName")).sendKeys("domnic");
@@ -24,7 +24,7 @@ public class TestCase3 {
 		driver.findElement(By.id("Password")).sendKeys("Dom12");
 		driver.findElement(By.id("ConfirmPassword")).sendKeys("Dom12");
 		driver.findElement(By.id("register-button")).click();
-		driver.quit();
+		driver.quit(); // it is a good practise to do in your code.
 		
 		
 
